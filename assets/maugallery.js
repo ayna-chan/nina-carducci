@@ -160,9 +160,7 @@
           index = i ;
         }
       });
-      // next =
-      //   imagesCollection[index] ||
-      //   imagesCollection[imagesCollection.length - 1];
+ 
       let prevIndex = (index - 1 + imagesCollection.length) % imagesCollection.length;
       next = imagesCollection[prevIndex];
 
@@ -202,7 +200,6 @@
           index = i;
         }
       });
-      // next = imagesCollection[index] || imagesCollection[0];
       let nextIndex = (index + 1) % imagesCollection.length;
 next = imagesCollection[nextIndex];
 
