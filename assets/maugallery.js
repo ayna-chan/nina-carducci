@@ -76,11 +76,6 @@
         element.append('<div class="gallery-items-row row"></div>');
       }
     },
-    // wrapItemInColumn(element, columns) {
-    //   if (columns.constructor === Number) {
-    //     element.wrap(
-    //       `<div class='item-column mb-4 col-${Math.ceil(12 / columns)}'></div>`
-    //     );
 
     wrapItemInColumn(element, columns) {
   if (typeof columns === "number") {
